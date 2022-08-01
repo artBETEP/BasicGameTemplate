@@ -1,6 +1,5 @@
-Key,English,German,Russian
-Menu.Title,Menu,Menü,Меню
-Menu.NewGame,New game,Neues Spiel,Новая игра
-Menu.Continue,Continue,Fortsetzen,Продолжить
-Menu.Settings,Settings,Einstellungen,Настройки
-Menu.Review,Write a review,Eine Rezension schreiben,Написать отзыв
+Key,English,Russian
+Menu.Start,Start,Начать игру
+Menu.Settings,Settings,Настройки
+Menu.Exit,Exit,Выход
+Menu.GameTitle,Game Name,Название игры

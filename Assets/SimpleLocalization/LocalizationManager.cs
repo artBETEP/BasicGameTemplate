@@ -91,6 +91,12 @@ namespace Assets.SimpleLocalization
                 Read();
             }
 
+            foreach (var key in Dictionary.Keys)
+            {
+                Debug.Log(key);
+            }
+
+
             if (!Dictionary.ContainsKey(Language)) throw new KeyNotFoundException("Language not found: " + Language);
             if (!Dictionary[Language].ContainsKey(localizationKey)) throw new KeyNotFoundException("Translation not found: " + localizationKey);
 
