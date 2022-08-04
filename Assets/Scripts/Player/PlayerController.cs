@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     public void FixedUpdate()
 	{
 		myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
-		myRigidbody.MoveRotation(Quaternion.Euler(new Vector3(0, transform.rotation.y+0.1f, 0)));
+		//myRigidbody.MoveRotation(Quaternion.Euler(new Vector3(0, transform.rotation.y+0.1f, 0)));
 	}
 
 	
