@@ -1,2 +1,2 @@
-# BasicGameTemplate
- Unity Game Template
+# Merge-game
+ Unity Game Merger
